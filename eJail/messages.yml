@@ -1,0 +1,68 @@
+#
+#    /\/\   ___  ___ ___  __ _  __ _  ___  ___
+#   /    \ / _ \/ __/ __|/ _` |/ _` |/ _ \/ __|
+#  / /\/\ \  __/\__ \__ \ (_| | (_| |  __/\__ \
+#  \/    \/\___||___/___/\__,_|\__, |\___||___/
+#                              |___/
+# Mensagens gerais do plugin
+
+messages:
+  syntax: '&cUse: /{command} {syntax}'
+  target: '&cJogador &f{player} &cnão encontrado.'
+  number: '&cO argumento não é um número.'
+  permission: '&cVocê não tem permissão para fazer isto.'
+  console: '&cApenas jogadores in-game podem realizar esta ação.'
+  cancelled: '&cVocê está preso e não pode executar essa ação.'
+  reload: '&aConfigurações recarregadas com sucesso.'
+  help:
+    - ''
+    - '&aComandos disponíveis:'
+    - ''
+    - ' &8> &a/prisoners &8- &7Abre o menu de presos.'
+    - ' &8> &a/jail help &8- &7Exibe esta mensagem.'
+    - ''
+  help-admin:
+    - ''
+    - '&aComandos disponíveis:'
+    - ''
+    - ' &8> &a/prisoners &8- &7Abre o menu de presos.'
+    - ' &8> &a/jail setjail <jail> &8- &7Cria uma nova jail.'
+    - ' &8> &a/jail setsaida <jail> &8- &7Define a saída de uma jail.'
+    - ' &8> &a/jail deljail <jail> &8- &7Deleta uma jail.'
+    - ' &8> &a/jail prender <jogador> <jail> <tempo> <motivo> &8- &7Prende um jogador.'
+    - ' &8> &a/jail soltar <jogador> &8- &7Solta um jogador.'
+    - ' &8> &a/jail reload &8- &7Recarrega as configurações do plugin.'
+    - ' &8> &a/jail help &8- &7Exibe esta mensagem.'
+    - ''
+  jail-list:
+    - ''
+    - '&cJail não encontrada.'
+    - '&cJails disponíveis: &f{list}'
+    - ''
+  set-exit: '&aSaída da jail &f{jail} &adefinida com sucesso!'
+  set-jail: '&aA jail &f{jail} &afoi criada com sucesso!'
+  jail-deleted: '&aA jail &f{jail} &afoi deletada com sucesso!'
+  arrest: '&aVocê prendeu o jogador &f{player}'
+  exit-location: '&cA saída da jail &f{jail} &cnão está setada.'
+  released: '&aVocê soltou o jogador &f{player}'
+  self: '&cVocê não pode prender a sí mesmo.'
+  player-arrested: '&cEste jogador já está preso!'
+  arrest-staff: '&cVocê não pode prender este jogador.'
+  not-arrested: '&cO jogador &f{player}&c não está preso.'
+  block-stuck-command: '&cVocê não pode usar este comando enquanto estiver preso!'
+  block-stuck-chat: '&cVocê não pode falar enquanto estiver preso!'
+  block-stuck-drop: '&cVocê não pode dropar itens enquanto estiver preso!'
+  no-balance: '&cVocê não tem money suficiente para isto. Disponível: {money}'
+  release: '&aVocê soltou o jogador &f{target}&a por &2$&a{money} coins'
+  release-all:
+    - '' 
+    - '&aO jogador &f{player}&a soltou o jogador &f{target}&a e pagou &2$&a{money} coins'
+    - ''
+  increase-delay: '&cAguarde &f{delay} &csegundos para aumentar a pena novamente.'
+  increase: '&aVocê aumentou em &f{time}&a a pena do jogador &f{target}&a por &2$&a{money} coins'
+  increase-player: '&aSua pena foi aumentada em &f{time}'
+  increase-all:
+    - ''
+    - '&aO jogador &f{player}&a aumentou em &f{time}&a a pena do jogador &f{target}&a e pagou &2$&a{money} coins'
+    - ''
+  fee-charged: '&cFoi cobrado &f{percentage}% &cde você por ter sido preso.'
