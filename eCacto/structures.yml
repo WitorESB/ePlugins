@@ -1,0 +1,54 @@
+#
+#   ____  _                   _
+#  / ___|| |_ _ __ _   _  ___| |_ _   _ _ __ ___  ___
+#  \___ \| __| '__| | | |/ __| __| | | | '__/ _ \/ __|
+#   ___) | |_| |  | |_| | (__| |_| |_| | | |  __/\__ \
+#  |____/ \__|_|   \__,_|\___|\__|\__,_|_|  \___||___/
+#                                                    
+
+# Itens das torres de cactos
+Structures:
+  T1:
+    Height: 2 # Quantia de andares da torre
+    LayersPerSecond: 1 # Andares gerados por segundo
+    CompletionSound: 'LEVEL_UP' # Som ao finalizar a torre
+    Material: 'CACTUS' # Material usado no item da torre
+    Name: '&aTorre de Cactos &8[&7Nvl.1&8]' # Nome do item da torre
+    Lore:
+      - '&7Crie uma torre de cactos'
+      - '&7com &f2 &7andares em seu terreno.'
+      - ''
+      - '&aUtilize esse item em seu terreno.'
+    # Siglas de cada bloco para identificação no pattern
+    Blocks:
+      - 'C,CACTUS'
+      - 'A,AIR'
+      - 'L,STRING'
+      - 'S,SAND'
+
+    # Modelagem da estrutura
+    Patterns:
+      1:
+        y: 1
+        pattern:
+          - 'A,S,A'
+          - 'S,A,S'
+          - 'A,S,A'
+      2:
+        y: 2
+        pattern:
+          - 'L,C,L'
+          - 'C,L,C'
+          - 'L,C,L'
+      3:
+        y: 3
+        pattern:
+          - 'S,A,S'
+          - 'A,S,A'
+          - 'S,A,S'
+      4:
+        y: 4
+        pattern:
+          - 'C,L,C'
+          - 'L,C,L'
+          - 'C,L,C'
