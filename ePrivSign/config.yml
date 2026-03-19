@@ -1,0 +1,43 @@
+#        ____       _        ____  _
+#    ___|  _ \ _ __(_)_   __/ ___|(_) __ _ _ __
+#   / _ \ |_) | '__| \ \ / /\___ \| |/ _` | '_ \
+#  |  __/  __/| |  | |\ V /  ___) | | (_| | | | |
+#   \___|_|   |_|  |_| \_/  |____/|_|\__, |_| |_|
+#                                    |___/
+# By: Wittor_ (DC: _wittor ou Witu#7623)
+
+database:
+  # Determina o tipo de banco de dados. Valores válidos: [SQLITE, MYSQL]
+  storage-type: SQLITE
+
+  # Dados para conexão ao banco de dados.
+  data:
+    # Endereço de conexão do banco de dados. [EX: 127.0.0.1]
+    host: localhost
+    # Porta de conexão do banco de dados. [EX: 3306]
+    port: 3306
+    # Nome do banco de dados a ser conectado. [EX: minecraft]
+    database: ''
+    # Usuário de conexão. [EX: root]
+    username: ''
+    # Senha do usuário de conexão: [EX: 123]
+    password: ''
+
+# Quantidade maxima de baús privados que o jogador poderá ter.
+# Defina -1 para o sistema não ser mais utilizado.
+max-private: 5
+
+# Quantidade máxima de amigos que podem ter acesso a um baú privado
+# Defina -1 para o sistema não ser mais utilizado.
+max-friends: 5
+
+# Mundos onde o sistema de private não vai funcionar.
+world-blacklist: ['']
+
+# placa de private nos baús
+sign-format:
+  private:
+    - '&a[Privado]'
+    - '&0{owner}'
+    - '&fID: &7{id}'
+    - ''
