@@ -1,0 +1,57 @@
+#
+#    /\/\   ___  ___ ___  __ _  __ _  ___  ___
+#   /    \ / _ \/ __/ __|/ _` |/ _` |/ _ \/ __|
+#  / /\/\ \  __/\__ \__ \ (_| | (_| |  __/\__ \
+#  \/    \/\___||___/___/\__,_|\__, |\___||___/
+#                              |___/
+# Mensagens gerais do plugin
+
+actionbar:
+ clearing: '&a&lLIMPADOR: &aStatus -> &8[{progressbar}&8] &7{percentage}%'
+ finished: '&a&lLIMPADOR: &aLimpeza concluída.'
+  
+title:
+ finished: '&a&lLIMPADOR<nl>&aLimpeza concluída.'
+
+messages:
+ syntax: '&cUse: /{command} {syntax}'
+ target: '&cJogador &f{player} &cnão encontrado.'
+ number: '&cO argumento não é um número.'
+ permission: '&cVocê não tem permissão para fazer isto.'
+ console: '&cApenas jogadores in-game podem realizar esta ação.'
+ reload: '&aConfigurações recarregadas com sucesso.'
+ help:
+   - ''
+   - '&aComandos disponíveis:'
+   - ''
+   - ' &8> &a/clearplot give <all/jogador> <quantia> &8- &7Da um limpador de plot ao jogador'
+   - ' &8> &a/clearplot reload &8- &7Recarrega a configuração do plugin.'
+   - ' &8> &a/clearplot help &8- &7Mostra essa menssagem.'
+   - ''
+ clearplot-give: '&aVocê deu &7{amount}x Limpador de Plot &apara o jogador &7{player}'
+ clearplot-give-all:
+   - ''
+   - '&aO usuário &7{player} &adeu &7{amount}x Limpador de Plot &apara todos os jogadores online.'
+   - ''
+ clearplot-finished:
+   - ''
+   - '&a&lLIMPADOR: &aLimpeza concluída.'
+   - ''
+ clearplot-activated: '&a&lLIMPADOR: &aIniciando limpeza do plot. Por favor, aguarde...'
+ clearplot-confirm:
+   - ''
+   - '&a&lLIMPADOR: &aUtilize &fSHIFT + BOTÃO DIREITO&a para confirmar o uso do limpador.'
+   - ''
+ confirmation-expired: '&cA confirmação expirou, use o item novamente para confirmar!'
+ safe-teleport:
+   - ''
+   - '&aVocê foi teleportado para um local seguro!'
+   - ''  
+ limit-reached: '&cTodos os &f{limit} &cpedreiros estão trabalhando. Aguarde para limpar seu plot.'
+ world-blacklisted: '&cVocê não pode usar o limpador de plot neste mundo!'
+ not-in-plot: '&cVocê precisa estar em um plot!'
+ plot-owner: '&cVocê não é o dono desse plot.'
+ no-blocks: '&cNão há blocos para limpar neste plot.'
+ already: '&cVocê já está limpando uma plot.'
+ command-blocked: '&cVocê não pode usar este comando enquanto seu plot está sendo limpo!'
+ need-shift: '&cVocê precisa estar agachado para usar este item!'
