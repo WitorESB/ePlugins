@@ -1,0 +1,18 @@
+rewards:
+  Reco1:
+    # Item que será dado ao jogador.
+    item:
+      material: 'STONE'
+      name: '&aPedra Mística'
+      amount: 1
+      lore:
+        - '&aEu valho muito!'
+      # ENCHANT:LEVEL
+      # Caso não queira usar deixe vazio!
+      enchants: ['DURABILITY:1']
+    # Só será executado o comando se o "Use" estiver em true.
+    # Comandos que serão executados no jogador.
+    command:
+      use: false
+      list:
+        - 'give {player} diamond 1'
