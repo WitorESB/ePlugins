@@ -1,0 +1,45 @@
+#        ____                       _
+#    ___|  _ \ ___ _ __   ___  _ __| |_ ___
+#   / _ \ |_) / _ \ '_ \ / _ \| '__| __/ __|
+#  |  __/  _ <  __/ |_) | (_) | |  | |_\__ \
+#   \___|_| \_\___| .__/ \___/|_|   \__|___/
+#                 |_|
+# By: Wittor_ (DC: _wittor ou Witu#7623)
+
+database:
+  # Determina o tipo de banco de dados. Valores válidos: [SQLITE, MYSQL]
+  storage-type: SQLITE
+
+  # Dados para conexão ao banco de dados.
+  data:
+    # Endereço de conexão do banco de dados. [EX: 127.0.0.1]
+    host: localhost
+    # Porta de conexão do banco de dados. [EX: 3306]
+    port: 3306
+    # Nome do banco de dados a ser conectado. [EX: minecraft]
+    database: ''
+    # Usuário de conexão. [EX: root]
+    username: ''
+    # Senha do usuário de conexão: [EX: 123]
+    password: ''
+
+# Opções gerais de configuração do plugin
+options:
+  # Bloquear de reportar staff
+  # Permissão para ser reconhecido como staff: ereports.staff
+  staff-block: true
+
+  # Sempre exigir uma prova para reportar
+  demand-proof: true
+
+  # Lista de links permitidos para a prova de reporte.
+  links:
+    - 'https://www.youtube.com'
+    - 'https://imgur.com'
+
+  # Limite de caracteres para o motivo de outros
+  reason-caracter: 30
+  
+  # Tempo que o jogador precisa esperar para reportar o mesmo jogador novamente
+  # em segundos
+  delay: 5
