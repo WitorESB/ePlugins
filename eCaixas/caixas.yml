@@ -1,0 +1,32 @@
+Caixas:
+  misteriosa:
+    # Nome que aparecerá nas mensagens
+    Display: '&5Caixa Misteriosa'
+    # Item que aparecerá no preview do menu principal.
+    Preview:
+      Material: 'ENDER_PORTAL_FRAME'
+      Name: '&5Caixa Misteriosa'
+      Glow: true
+      Lore:
+        - ''
+        - '&7Tipo: &fBásica'
+        - ''
+    # Item da caixa
+    Item:
+      Material: 'ENDER_PORTAL_FRAME'
+      Name: '&5Caixa Misteriosa'
+      Glow: true
+      Lore:
+        - ''
+        - '&7Tipo: &fBásica'
+        - ''
+        - '&7Botão ESQUERDO: &fVê as recompensas.'
+        - '&7Botão DIREITO: &fAbre a caixa.'
+    # chance,recompensa
+    Recompensas:
+      - '85.00,Reco1'
+    # Dê uma chance a mais para os vips
+    # permissão,recompensa-chance
+    # A permissão soma na chance da caixa 
+    Chance-adicional:
+      - 'ecaixas.vip,Reco1-15.00'
