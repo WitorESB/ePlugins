@@ -1,0 +1,20 @@
+#
+#    /\/\   ___  ___ ___  __ _  __ _  ___  ___
+#   /    \ / _ \/ __/ __|/ _` |/ _` |/ _ \/ __|
+#  / /\/\ \  __/\__ \__ \ (_| | (_| |  __/\__ \
+#  \/    \/\___||___/___/\__,_|\__, |\___||___/
+#                              |___/
+# Mensagens gerais do plugin
+
+messages:
+  permission: '&cVocê não tem permissão para fazer isto.'
+  console: '&cApenas jogadores in-game podem realizar esta ação.'
+  reload: '&aConfigurações recarregadas com sucesso.'
+  inv-full: '&cSeu inventário está cheio.'
+  help-admin:
+    - ''
+    - ' &8> &a/easteregg &8- &7Abre o menu principal.'
+    - ' &8> &a/easteregg editor &8- &7Abre o menu de gerenciamento admin.'
+    - ' &8> &a/easteregg reload &8- &7Recarrega as configurações do plugin.'
+    - ' &8> &a/easteregg help &8- &7Exibe esta mensagem.'
+    - ''
