@@ -1,0 +1,92 @@
+#         ____                    _
+#    ___ / ___|___  _ __ _ __ ___(_) ___  ___
+#   / _ \ |   / _ \| '__| '__/ _ \ |/ _ \/ __|
+#  |  __/ |__| (_) | |  | | |  __/ | (_) \__ \
+#   \___|\____\___/|_|  |_|  \___|_|\___/|___/
+#
+# By: Wittor_ (DC: _wittor ou Witu#7623)
+
+# Configuração do banco de dados
+database:
+  # Determina o tipo de banco de dados. Valores válidos: [SQLITE, MYSQL]
+  storage-type: SQLITE
+
+  # Dados para conexão ao banco de dados MYSQL.
+  data:
+    # Endereço de conexão do banco de dados. [EX: 127.0.0.1]
+    host: localhost
+    # Porta de conexão do banco de dados. [EX: 3306]
+    port: 3306
+    # Nome do banco de dados a ser conectado. [EX: minecraft]
+    database: ''
+    # Usuário de conexão. [EX: root]
+    username: ''
+    # Senha do usuário de conexão: [EX: 123]
+    password: ''
+
+# Delay para carregar os dados depois do login
+# Necessário para usar em servidor de mina separado
+# Recomendado: 20 ticks
+login-delay: 20
+
+# Tipo de formatos de quantia disponíveis: LETRA (K,M,B,T...) e NUMERO (100,00)
+formats-type: 'LETRA'
+
+# Opções gerais do plugin
+options:
+  # Mundos onde os jogadores NÃO podem coletar recompensas/itens
+  world-blacklist: ['']
+  
+  # Regiões do WorldGuard onde os jogadores NÃO podem coletar recompensas/itens
+  regions-blacklist: ['']
+
+  # Enviar aviso de recompensas/itens no correio ao logar
+  login-message: true
+
+  # Ativar o botão Q para deletar as recompensas/itens
+  useQ: true
+
+  # Verificar espaço no inventário antes de dar recompensas
+  inventory-check: true
+
+# Lore de sobreposição
+itens:
+  # Lore de sobreposição nos itens enviados no comando (/correio enviar/enviartodos)
+  # Somente aplicada no menu
+  send:
+    enable: true
+    lore:
+      - ''
+      - '&fQuantia: &a{quantia}'
+      - '&fEnviado por: &a{player}'
+      - '&fData do envio: &a{date} - {hour}'
+      - ''
+      - '&7Botão ESQUERDO: &fPara coletar 1x'
+      - '&7Botão SHIFT + ESQUERDO: &fPara coletar todos.'
+      - '&7Botão Q: &fPara deletar todos.'
+
+# Opcoes de configuração do NPC
+NPC:
+  skin: 'Wittor_'
+  look: true
+  hologram:
+    height: 2.9
+    lines:
+      - '&6&n&lCORREIO'
+      - '&7Clique para gerenciar suas encomendas.'
+      - '&7(/correio)'
+
+# Formatos de quantia
+formats:
+  - ''
+  - 'K'
+  - 'M'
+  - 'B'
+  - 'T'
+  - 'Q'
+  - 'QQ'
+  - 'S'
+  - 'SS'
+  - 'O'
+  - 'N'
+  - 'D'
