@@ -1,2 +1,2 @@
 # ePlugins
-Plugins feitos por Wittor
+Plugins feitos por Wittor (_wittor)
