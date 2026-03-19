@@ -52,7 +52,7 @@ Embeds:
     Url: '' # URL clicável no título
     Thumbnail: 'https://minotar.net/helm/{player}/100.png' # URL de imagem pequena (canto superior direito)
     Image: '' # URL de imagem grande (corpo do embed)
-    Color: '#00A8FF'
+    Color: '#ff0000'
     Author:
       Name: '' # Nome do autor
       Url: '' # URL clicável no nome do autor
