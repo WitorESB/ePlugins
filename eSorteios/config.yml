@@ -1,0 +1,17 @@
+#        ____             _       _
+#    ___/ ___|  ___  _ __| |_ ___(_) ___
+#   / _ \___ \ / _ \| '__| __/ _ \ |/ _ \
+#  |  __/___) | (_) | |  | ||  __/ | (_) |
+#   \___|____/ \___/|_|   \__\___|_|\___/
+#
+# By: Wittor_ (DC: _wittor ou Witu#7623)
+
+# Autostart de sorteios
+Auto-Start:
+  vip: # Nome qualquer
+    # nome do sorteio
+    # deixe 'random' para ser um aleatório
+    type: 'random'
+    # todos, segunda, terca, quarta, quinta, sexta, sabado, domingo
+    # dia-hora-minuto-segundo
+    schedule: 'todos-00:00:01'
