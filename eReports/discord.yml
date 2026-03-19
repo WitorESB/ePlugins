@@ -1,0 +1,47 @@
+#       _ _                       _ 
+#    __| (_)___  ___ ___  _ __ __| |
+#   / _` | / __|/ __/ _ \| '__/ _` |
+#  | (_| | \__ \ (_| (_) | | | (_| |
+#   \__,_|_|___/\___\___/|_|  \__,_|                                
+#                                                    
+# Sistema de WebHook
+
+WebHook:
+  # Deixe vazio par não usar o sistema
+  URL: '' 
+
+Embed:
+  newReport:
+    Title: ':mailbox: Novo Reporte'
+    Thumbnail: 'https://minotar.net/helm/{player}/100.png'
+    Color: '#FF0000'
+    Content: ''
+    Footer:
+      Text: 'Todos os direitos reservados'
+      Image: ''
+    Description: ''
+    Fields:
+      server:
+        Inline: true
+        Header: 'Servidor'
+        Content: 'RankUP'
+      reported:
+        Inline: true
+        Header: 'Reportado'
+        Content: '{reported}'
+      reporter:
+        Inline: true
+        Header: 'Denunciante'
+        Content: '{reporter}'
+      reason:
+        Inline: true
+        Header: 'Motivo'
+        Content: '{reason}'
+      proof:
+        Inline: true
+        Header: 'Prova'
+        Content: '{proof}'
+      data:
+        Inline: true
+        Header: 'Data do Reporte'
+        Content: '{date} às {hour}'
