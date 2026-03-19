@@ -1,0 +1,28 @@
+#        _____          _            _____
+#    ___| ____|__ _ ___| |_ ___ _ __| ____|__ _  __ _ ___
+#   / _ \  _| / _` / __| __/ _ \ '__|  _| / _` |/ _` / __|
+#  |  __/ |__| (_| \__ \ ||  __/ |  | |__| (_| | (_| \__ \
+#   \___|_____\__,_|___/\__\___|_|  |_____\__, |\__, |___/
+#                                         |___/ |___/
+# By: Wittor_ (DC: _wittor ou Witu#7623)
+
+# Configurações do banco de dados.
+database:
+  # Determina o tipo de banco de dados. Valores válidos: [SQLITE, MYSQL]
+  storage-type: SQLITE
+
+  # Dados para conexão ao banco de dados MYSQL.
+  data:
+    # Endereço de conexão do banco de dados. [EX: 127.0.0.1]
+    host: localhost
+    # Porta de conexão do banco de dados. [EX: 3306]
+    port: 3306
+    # Nome do banco de dados a ser conectado. [EX: minecraft]
+    database: ''
+    # Usuário de conexão. [EX: root]
+    username: ''
+    # Senha do usuário de conexão: [EX: 123]
+    password: ''
+
+# Verificar IP para evitar múltiplas contas
+check-ip: true
