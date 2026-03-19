@@ -1,0 +1,47 @@
+#
+#    /\/\   ___  ___ ___  __ _  __ _  ___  ___
+#   /    \ / _ \/ __/ __|/ _` |/ _` |/ _ \/ __|
+#  / /\/\ \  __/\__ \__ \ (_| | (_| |  __/\__ \
+#  \/    \/\___||___/___/\__,_|\__, |\___||___/
+#                              |___/
+# Mensagens gerais do plugin
+
+messages:
+  syntax: '&cUse: /{command} {syntax}'
+  permission: '&cVocê não tem permissão para fazer isto.'
+  console: '&cApenas jogadores in-game podem realizar esta ação.'
+  cancelled: '&cVocê cancelou a ação.'
+  discard: '&aVocê descartou &f{item} &aitem(s) na lixeira!'
+  reload: '&aConfigurações recarregadas com sucesso.'
+  inv-full: '&cO seu inventário está cheio.'
+  item-collect: '&aVocê coletou &f{item} &aiten(s).'
+  toggle-on: '&aNotificações do lixeiro &lATIVADAS&a!'
+  toggle-off: '&cNotificações do lixeiro &lDESATIVADAS&c!'
+  help:
+    - ''
+    - '&aComandos disponíveis:'
+    - ''
+    - ' &8> &a/lixeira &8- &7Abre uma lixeira para o jogador.'
+    - ' &8> &a/lixeiro &8- &7Ve o tempo restante para a limpeza.'
+    - ' &8> &a/lixeiro historico &8- &7Ve o histórico de limpezas anteriores.'
+    - ' &8> &a/lixeiro toggle <on/off> &8- &7Ativa/desativa as mensagens de aviso da limpeza.'
+    - ' &8> &a/lixeiro help &8- &7Exibe esta mensagem.'
+    - ''
+  help-Admin:
+    - ''
+    - '&aComandos disponíveis:'
+    - ''
+    - ' &8> &a/lixeira &8- &7Abre uma lixeira para o jogador.'
+    - ' &8> &a/lixeiro &8- &7Ve o tempo restante para a limpeza.'
+    - ' &8> &a/lixeiro force &8- &7Força a limpeza acontecer.'
+    - ' &8> &a/lixeiro reload &8- &7Recarrega as configurações do plugin.'
+    - ' &8> &a/lixeiro historico &8- &7Ve o histórico de limpezas anteriores.'
+    - ' &8> &a/lixeiro toggle <on/off> &8- &7Ativa/desativa as mensagens de aviso da limpeza.'   
+    - ' &8> &a/lixeiro help &8- &7Exibe esta mensagem.'
+    - ''
+  force: '&aVocê forçou a limpeza de itens e entidades.'
+  next: 
+    - ''
+    - '&eTempo para a próxima limpeza: &f{time}'
+    - '&a♻ &fNa última limpeza foram limpos &7{items_total}&f itens e &7{entities_total}&f entidades.'
+    - ''
