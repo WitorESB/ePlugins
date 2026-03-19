@@ -1,0 +1,89 @@
+#         ____ _                 ____  _       _
+#    ___ / ___| | ___  __ _ _ __|  _ \| | ___ | |_ ___
+#   / _ \ |   | |/ _ \/ _` | '__| |_) | |/ _ \| __/ __|
+#  |  __/ |___| |  __/ (_| | |  |  __/| | (_) | |_\__ \
+#   \___|\____|_|\___|\__,_|_|  |_|   |_|\___/ \__|___/
+#
+# By: Wittor_ (DC: _wittor ou Witu#7623)
+
+# Tipo de formatos de quantia disponíveis: LETRA (K,M,B,T...) e NUMERO (100,00)
+formats-type: 'LETRA'
+
+#Opções gerais do plugin
+general:
+  #Limite de limpezas por vez (com isso somente 5 jogadores poderão limpar suas plots por vez)
+  #Ideal para não lagar seu servidor
+  limit: 5
+  
+  #Precisar de shift para ativar o limpador
+  need-shift: false
+  
+  #Teleporta todos os jogadores de dentro da plot para um logar seguro
+  safe-teleport: true
+  
+  #Limpar de forma instantânea
+  #Pode gerar LAG
+  instant: false
+  
+  #Mundos que não será possível usar o limpador
+  world-blacklist: ['']
+  
+  #Blocos que serão limpos
+  block-list: ['STONE', 'GRASS']
+  
+  #Comandos bloqueados para o jogador que está limpando a plot
+  command-blacklist: ['/p', '/plot']
+    
+  #Som a ser executado quando a limpeza da plot foi finalizada
+  clearplot-finished-sound: 'LEVEL_UP'
+
+# Item da limpeza
+item:
+  material: 'DIAMOND_SPADE'
+  name: '&aLimpador de Plots'
+  lore:
+    - '&7Use este item no seu plot para'
+    - '&7limpá-lo por completo.'
+    - ''
+    - '&7Botão &fDIREITO + SHIFT: &7Para ativar.'
+
+hologram:
+  enabled: true
+  duration: 5
+  height: 3
+  lines:
+    - '&a&lLIMPEZA DA PLOT'
+    - ''
+    - '&fDono: &a{player}'
+    - '&fStatus: &r{stats}'
+    - '&fTempo: &a{time}'
+    - '&fBlocos: &a{min}&7/&c{max}'
+    - '&8[{progressbar}&8] &7{percentage}%'
+    
+#Configuração da barra de progresso
+progress-bar:
+  amount: 10
+  symbol: ':'
+  color-yes: '&a'
+  color-no: '&7'
+  
+#Configuração dos status
+status:
+  start: '&eIniciando...'
+  cleaning: '&aLimpando...'
+  complet: '&aConcluído!'
+  
+# Formatos de quantia
+formats:
+  - ''
+  - 'K'
+  - 'M'
+  - 'B'
+  - 'T'
+  - 'Q'
+  - 'QQ'
+  - 'S'
+  - 'SS'
+  - 'O'
+  - 'N'
+  - 'D'
